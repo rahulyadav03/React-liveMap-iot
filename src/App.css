@@ -28,6 +28,19 @@
   color: #61dafb;
 }
 
+.bikeImg {
+  background-image: url(./assets/img/sexyBike.jpg);
+  width: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.map {
+  width: 100%;
+  height: 100vh;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +48,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bodyMapPopUp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.greenColor {
+  height: 10px;
+  width: 10px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.blueColor {
+  height: 10px;
+  width: 10px;
+  background-color: #17a2b8;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.yellowColor {
+  height: 10px;
+  width: 10px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.redColor {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.colorText {
+  display: inline-block;
+  padding-right: 7px;
 }
